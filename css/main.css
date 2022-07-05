@@ -321,6 +321,8 @@ footer p {
   margin: 0;
 }
 /* ------------------ About me ------------------ */
+@import url(/perfil.html);
+
 .profile-main-container {
   align-items: center;
     background-color: var(--gray);
@@ -354,63 +356,4 @@ footer p {
   margin-bottom: 20px;
 }
 
-/* .projects--container {
-  margin: 0 auto;
-  margin-bottom: 80px;
-  text-align: center;
-  width: 90%;
-}
 
-.projects--container h2 {
-  margin: 40px 0 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid var(--border-bo);
-}
-
-.projects__cards--container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: .5fmain__aboutmefr 1fr;
-  gap: 30px;
-}
-
-.projects__card {
-  box-shadow: 1px 4px 10px var(--gray);
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
-
-.projects__card figure {
-  height: auto;
-  max-height: 220px;
-  width: 100%;
-}
-
-.projects__card figure > a {
-  display: inline-block;
-  height: inherit;
-  width: inherit;
-}
-
-.projects__card figure a:hover{
-  background-color: rgb(114, 114, 114);
-}
-
-.projects__card img {
-  height: 100%;
-  width: 100%;
-}
-
-.project__card--text {
-  padding: 5px 20px 20px;
-}
-
-.project__card--text h2{
-  margin: 20px 0 20px;
-  padding-bottom: 5px;
-}
-
-.project__card--text p {
-  text-align: left;
-} */
